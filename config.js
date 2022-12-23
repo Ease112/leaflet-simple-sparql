@@ -11,7 +11,7 @@ limit 1000
 */}).toString().match(/\n([\s\S]*)\n/)[1];
 
 var maxZoom = 19;
-var baseUrl = "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+var baseUrl = "https://tile.openstreetmap.jp/{z}/{x}/{y}.png";
 var baseAttribution = 'Map data &copy; OpenStreetMap contributors, Tiles Courtesy of OpenStreetMap Japan';
 var subdomains = 'abc';
 var clusterOptions = {showCoverageOnHover: false, maxClusterRadius: 50};
